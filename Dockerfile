@@ -1,5 +1,5 @@
-FROM selenium/node-chrome:2.53.0
-MAINTAINER Virasak Dungsrikaew <virasak@gmail.com>
+FROM selenium/node-chrome
+MAINTAINER Supaket Wongkampoo <supaket@gmail.com>
 
 USER root
 COPY swarm_entry_point.sh /opt/bin/
