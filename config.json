@@ -1,11 +1,6 @@
 {
   "capabilities": [
     {
-      "browserName": "*googlechrome",
-      "maxInstances": 20,
-      "seleniumProtocol": "Selenium"
-    },
-    {
       "browserName": "chrome",
       "maxInstances": 20,
       "seleniumProtocol": "WebDriver"
@@ -16,6 +11,6 @@
     "maxSession": 20,
     "port": 5555,
     "register": true,
-    "registerCycle": 5000
+    "registerCycle": 30000
   }
 }
