@@ -25,7 +25,7 @@ fi
 
 # TODO: Look into http://www.seleniumhq.org/docs/05_selenium_rc.jsp#browser-side-logs
 
-MY_IP=$(ip a s|grep "10.2"|grep "/16"| cut -d ' ' -f 6| cut -d '/' -f 1)
+MY_IP=$(ip a s|grep "10."|grep "/16"| cut -d ' ' -f 6| cut -d '/' -f 1)
 
 SERVERNUM=$(get_server_num)
 xvfb-run -n $SERVERNUM --server-args="-screen 0 $GEOMETRY -ac +extension RANDR" \
